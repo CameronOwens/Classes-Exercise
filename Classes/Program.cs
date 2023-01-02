@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var newCar = new Car();
+            newCar.Make = "Honda";
+            newCar.Model = "Pilot";
+            newCar.Year = 2017;
+
+            Console.WriteLine($"{newCar.Make} {newCar.Model} {newCar.Year}");
         }
     }
 }
